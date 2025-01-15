@@ -9,7 +9,7 @@ projects:
     account-id: '70471823405433'
     account-host: 'hy027.us1.dbt.com'
     token-name: 'cloud-cli-2027'
-    token-value: { { tocken_value } }
+    token-value: 'dbtu_WLbCVYwbM0hHJzH2dbqIIenMAiaxHS_r3dm63sajZF8hB83tYI'
 
 model-paths: ['models']
 analysis-paths: ['analyses']
