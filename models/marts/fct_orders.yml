@@ -21,6 +21,6 @@ models:
         constraints:
           - type: not_null
       - name: location_id
-        data_type: varchar
+        data_type: number
         constraints:
           - type: not_null
