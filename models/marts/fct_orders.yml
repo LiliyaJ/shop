@@ -1,0 +1,26 @@
+models:
+  - name: fct_orders
+    config:
+      contracts:
+        enforced: true
+    columns:
+      - name: order_id
+        data_type: varchar
+        constraints:
+          - type: not_null
+      - name: customer_id
+        data_type: varchar
+        constraints:
+          - type: not_null
+      - name: ordered_at
+        data_type: timestamp_ntz
+        constraints:
+          - type: not_null
+      - name: location_opened_at
+        data_type: timestamp_ntz
+        constraints:
+          - type: not_null
+      - name: location_id
+        data_type: varchar
+        constraints:
+          - type: not_null
