@@ -4,5 +4,3 @@ logs/
 .vscode/
 .venv/
 .DS_Store
-.env
-dbt_project.yml
