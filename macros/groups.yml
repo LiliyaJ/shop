@@ -1,0 +1,9 @@
+groups:
+  - name: finance
+    owner:
+      name: Big Guy
+      email: bg@evenbigger.com
+      slack: finance
+  - name: product
+    owner:
+      email: product@fake.com
